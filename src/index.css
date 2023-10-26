@@ -111,3 +111,12 @@ header button {
   color: var(--font-color-light);
   font-size: 0.8em;
 }
+
+/* Add this in your CSS */
+.add {
+  background-color: lightblue; /* Default button color */
+}
+
+.add.remove {
+  background-color: pink; /* Button color when in "Remove From Cart" state */
+}
